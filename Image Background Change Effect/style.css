@@ -1,0 +1,50 @@
+/* https://www.remove.bg/ */
+/* https://fontawesome.com/ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffe6a7, #432818);
+}
+.img-box{
+    width: 35%;
+    margin: auto;
+    line-height: 0;
+    background: #bb9457;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.37);
+}
+.img-wrap{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+span{
+    width: 1px;
+    height: 100%;
+    cursor: ew-resize;
+    background: #fff;
+    position: absolute;
+    left: 22px;
+    top: 0;
+}
+.arrow{
+    width: 20px;
+    position: absolute;
+    top: 55%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
